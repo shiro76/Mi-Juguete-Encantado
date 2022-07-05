@@ -1,6 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
+.body1{
+    flex-direction: column;
 }
 
 body{
@@ -21,6 +20,7 @@ body{
 }
 
 .header-text{
+    width: 20%;
     justify-content: center;
     color: #fbfea4;
     font-size: 17px;
@@ -40,56 +40,53 @@ body{
     text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgb(140 140 140 / 50%) 0px 4px 0px, #787878 0px 0px 0px, rgb(0 0 0 / 50%) 0px 5px 10px;
 }
 
-nav{
-    border: solid;
+/* nav{
     width: 100%;
-}
+} */
 
 .header{
+    width: 100%;
     text-align: center;
     background-color: #a6d2ba;
     flex-direction: row;
-    justify-content: space-between;
     height: 120px;
+    justify-content: center;
 }
 
 .ul{
+    width: 100%;
     flex-direction: row;
     align-items: center;
     list-style-type: none;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-li{
-    width: auto;
+.li{
+    height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     margin-right: 35px;
     line-height: 16px;
     font-size: 19px;
-    border-right: solid 2px;
 }
 
 li a{
-    width: 100%;
     color: #fbfea4;
     font-family: 'Patrick Hand', cursive;
 }
 
 a{
     text-decoration: none;
-
 }
 
 #panier{
     border: hidden;
-    width: 100px;
 }
 
 .svg-test {
-    font-size: 100px;
-    width: 35%;
-    height: 100%;
+    font-size: 80px;
+    height: 35%;
 }
 
 .texte-main{
@@ -109,7 +106,6 @@ a{
 
 .img-main{
     width: auto;
-    border: solid;
     justify-content: center;
     height: auto;
     background: rgb(190,224,230);
